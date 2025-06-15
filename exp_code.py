@@ -7,7 +7,7 @@ from psychopy.hardware.keyboard import Keyboard
 from psychopy import event
 import random
 ### DIALOG BOX ROUTINE ###
-exp_info = {'participant_nr': '', 'age': '','condition':['future','past','present']}
+exp_info = {'participant_nr': '', 'age': '','condition':['future','past']}
 dlg = DlgFromDict(exp_info)
 
 # If pressed Cancel, abort!
